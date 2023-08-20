@@ -22,7 +22,7 @@ def Decade(n1,n5,n10,k):
         elif Int[len(Int) - k -1] == "0":
             Roman = ""
         return Roman 
-            
+
 if len(Int)==1:
     print(Decade("I","V","X",0))
 elif len(Int) == 2:
