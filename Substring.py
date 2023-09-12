@@ -19,11 +19,6 @@ for j in range(k,len(word),1):
         count = True
         k+=1    
 
-for i in range(0,len(lengthstr)-1,1):
-        if lengthstr[i] > lengthstr[i+1]:
-            box = lengthstr[i+1]
-            lengthstr[i+1] = lengthstr[i]
-            lengthstr[i] = box   
-maxstr = lengthstr[len(lengthstr)-1]
+maxstr = max(lengthstr)
 
 print(f"Размер самой длинной подстроки: {maxstr}")
